@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@1,200;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+.header-container{
+    font-family: 'REM', sans-serif;
+    background-color: #F2EE9D;
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.image{
+    height: 250px;
+    width: auto;
+    padding: 2px;
+}
